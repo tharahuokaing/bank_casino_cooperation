@@ -6,8 +6,47 @@
     <title>Huokaing Thara Bank 1 & 2 - Casino Simulation</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="bank.jpg">
+    <style>
+        /* Centering overrides to ensure full-page middle alignment */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        .hero-fullscreen, 
+        .navbar, 
+        .disclaimer-banner, 
+        .container, 
+        footer {
+            width: 100%;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .logo-container, 
+        .lang-switch, 
+        .grid, 
+        .demo-controls {
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Hero Banner -->
+    <section class="hero-fullscreen">
+      <img src="bank_casino_cooperation.jpg" alt="HUOKAING THARA Opening" class="img-full-cover" onerror="this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200'">
+      <div class="hero-overlay">
+        <h1>HUOKAING THARA BANK && Casino 2 &amp; ISP</h1>
+        <p>Bank & &amp; Casino 2</p>
+      </div>
+    </section>
 
     <header class="navbar">
         <div class="logo-container">
@@ -25,7 +64,7 @@
 
     <div class="disclaimer-banner">
         <span class="warning-icon">⚠️</span>
-        <p data-km="ការរំលឹកសំខាន់៖ ប្រព័ន្ធកម្សាន្តនេះត្រូវបានបង្កើតឡើងសម្រាប់តែការសិក្សា និងការកម្សាន្តប៉ុណ្ណោះ។ ពុំមានការប្រើប្រាស់ប្រាក់ពិតប្រាកដឡើយ។" 
+        <p data-km="ការរំលឹកសំខាន់៖ ប្រព័ន្ធកម្សាន្តនេះត្រូវបានបង្កើតឡើងសម្រាប់តែការសិក្សា និងការកម្សាន្តប៉ុណ្ណោះ។ ពុំមានការប្រើប្រាស់ប្រាក់ពិតប្រាកដឡើយ RISK-FREE SIMULATION." 
            data-en="Important Notice: This simulation system is developed strictly for educational and entertainment purposes only. No real money is involved.">
             ការរំលឹកសំខាន់៖ ប្រព័ន្ធកម្សាន្តនេះត្រូវបានបង្កើតឡើងសម្រាប់តែការសិក្សា និងការកម្សាន្តប៉ុណ្ណោះ។ ពុំមានការប្រើប្រាស់ប្រាក់ពិតប្រាកដឡើយ។
         </p>
@@ -45,14 +84,14 @@
 
         <section class="features-section">
             <h3 data-km="មុខងារសំខាន់ៗដែលបានអភិវឌ្ឍ" data-en="Key Developed Features">មុខងារសំខាន់ៗដែលបានអភិវឌ្ឍ</h3>
-            
+
             <div class="grid">
                 <div class="card">
                     <div class="card-icon">⚙️</div>
                     <h4 data-km="ក្បួនដោះស្រាយកម្រិតខ្ពស់" data-en="Advanced Algorithms">ក្បួនដោះស្រាយកម្រិតខ្ពស់</h4>
                     <p data-km="បច្ចេកវិទ្យាបង្កើតលេខចៃដន្យ (RNG) ដែលមានតម្លាភាព និងភាពត្រឹមត្រូវខ្ពស់សម្រាប់ការសិក្សា។" 
                        data-en="Transparent and highly accurate Random Number Generation (RNG) built for algorithmic research.">
-                       បច្ចេកវិទ្យាបង្កើតលេខចៃដន្យ (RNG) ដែលមានតម្លាភាព និងភាពត្រឹមត្រូវខ្ពស់សម្រាប់ការសិក្សា។
+                        បច្ចេកវិទ្យាបង្កើតលេខចៃដន្យ (RNG) ដែលមានតម្លាភាព និងភាពត្រឹមត្រូវខ្ពស់សម្រាប់ការសិក្សា។
                     </p>
                 </div>
 
@@ -61,7 +100,7 @@
                     <h4 data-km="ប្រព័ន្ធគ្រប់គ្រងតុល្យភាព" data-en="Demo Ledger Engine">ប្រព័ន្ធគ្រប់គ្រងតុល្យភាព</h4>
                     <p data-km="ការធ្វើបច្ចុប្បន្នភាពសមតុល្យនិម្មិតភ្លាមៗ (Real-time Demo Credits) ដោយមិនប៉ះពាល់គណនីពិត។" 
                        data-en="Real-time virtual balance management without risking real-world financial assets.">
-                       ការធ្វើបច្ចុប្បន្នភាពសមតុល្យនិម្មិតភ្លាមៗ (Real-time Demo Credits) ដោយមិនប៉ះពាល់គណនីពិត។
+                        ការធ្វើបច្ចុប្បន្នភាពសមតុល្យនិម្មិតភ្លាមៗ (Real-time Demo Credits) ដោយមិនប៉ះពាល់គណនីពិត។
                     </p>
                 </div>
 
@@ -70,7 +109,7 @@
                     <h4 data-km="ឧបករណ៍សិក្សាស្រាវជ្រាវ" data-en="Educational Dashboard">ឧបករណ៍សិក្សាស្រាវជ្រាវ</h4>
                     <p data-km="ផ្ទាំងវិភាគទិន្នន័យប្រកបដោយអន្តរកម្ម សម្រាប់សិក្សាពីទ្រឹស្តីប្រូបាប៊ីលីតេ និងស្ថិតិ។" 
                        data-en="Interactive analytics tools designed to study probability theory and statistical models.">
-                       ផ្ទាំងវិភាគទិន្នន័យប្រកបដោយអន្តរកម្ម សម្រាប់សិក្សាពីទ្រឹស្តីប្រូបាប៊ីលីតេ និងស្ថិតិ។
+                        ផ្ទាំងវិភាគទិន្នន័យប្រកបដោយអន្តរកម្ម សម្រាប់សិក្សាពីទ្រឹស្តីប្រូបាប៊ីលីតេ និងស្ថិតិ។
                     </p>
                 </div>
             </div>
@@ -83,7 +122,7 @@
                     <span data-km="សមតុល្យសាកល្បង៖" data-en="Demo Credit Balance:">សមតុល្យសាកល្បង៖</span>
                     <strong id="balance">$1,000</strong>
                 </div>
-                
+
                 <div class="demo-controls">
                     <button id="spin-btn" onclick="runSimulation()" data-km="ដំណើរការការសាកល្បង" data-en="Run Simulation">ដំណើរការការសាកល្បង</button>
                     <button id="reset-btn" onclick="resetSimulation()" data-km="កំណត់ឡើងវិញ" data-en="Reset Balance">កំណត់ឡើងវិញ</button>
@@ -98,7 +137,7 @@
     </main>
 
     <footer>
-        <p data-km="© 2026 ធនាគារ ហួតកាំង ថារ៉ា ១ & ២។ រក្សាសិទ្ធិគ្រប់យ៉ាង។ សម្រាប់តែការសិក្សាស្រាវជ្រាវប៉ុណ្ណោះ។" 
+        <p data-km="© 2026 ធនាគារ ហួតកាំង ថារ៉ា ១ & ២។ រក្សាសិទ្ធិគ្រប់យ៉ាង។ សម្រាប់តែការសិក្សាស្រាវជ្រាវប៉ុណ្ណោះ risk-free." 
            data-en="© 2026 Huokaing Thara Bank 1 & 2. All rights reserved. Strictly for educational & research purposes only.">
             © 2026 ធនាគារ ហួតកាំង ថារ៉ា ១ & ២។ រក្សាសិទ្ធិគ្រប់យ៉ាង។ សម្រាប់តែការសិក្សាស្រាវជ្រាវប៉ុណ្ណោះ។
         </p>
