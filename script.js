@@ -25,7 +25,7 @@ function runSimulation() {
     const cost = 50;
     if (demoBalance < cost) {
         if (currentLang === 'km') {
-            resultElement.textContent = "តុល្យភាពនិម្មិតមិនគ្រប់គ្រាន់! សូមចុច 'កំណត់ឡើងវិញ'។";
+            resultElement.textContent = "តុល្យភាពប្រាក់និម្មិតមិនគ្រប់គ្រាន់! សូមចុច 'កំណត់ឡើងវិញ'។";
         } else {
             resultElement.textContent = "Insufficient demo credits! Please click 'Reset Balance'.";
         }
@@ -47,14 +47,14 @@ function runSimulation() {
     if (reward > cost) {
         resultElement.style.color = "#2e7d32";
         if (currentLang === 'km') {
-            resultElement.textContent = `លទ្ធផលក្លែងធ្វើ៖ ជោគជ័យ! អ្នកបានទទួលនិម្មិត +$${reward}`;
+            resultElement.textContent = `លទ្ធផល៖ ជោគជ័យ! អ្នកបានទទួលប្រាក់និម្មិត +$${reward}`;
         } else {
             resultElement.textContent = `Simulation Result: Success! You generated +$${reward} demo credits`;
         }
     } else {
         resultElement.style.color = "#d32f2f";
         if (currentLang === 'km') {
-            resultElement.textContent = `លទ្ធផលក្លែងធ្វើ៖ ការបាត់បង់និម្មិត -$${cost - reward}`;
+            resultElement.textContent = `លទ្ធផល៖ ការបាត់បង់ប្រាក់និម្មិត -$${cost - reward}`;
         } else {
             resultElement.textContent = `Simulation Result: Virtual net loss -$${cost - reward}`;
         }
