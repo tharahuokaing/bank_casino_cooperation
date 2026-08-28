@@ -1,6 +1,6 @@
 // State Variables
 let currentLang = 'km';
-let demoBalance = 1000;
+let demoBalance = 1000000;
 
 // Language Switcher Functionality
 function switchLanguage(lang) {
@@ -63,14 +63,14 @@ function runSimulation() {
 
 // Reset Demo Balance
 function resetSimulation() {
-    demoBalance = 1000;
+    demoBalance = 1000000;
     document.getElementById('balance').textContent = `$${demoBalance}`;
     const resultElement = document.getElementById('sim-result');
     
     if (currentLang === 'km') {
-        resultElement.textContent = "បានបន្តសមតុល្យដើម $1,000 រួចរាល់។";
+        resultElement.textContent = "បានបន្តសមតុល្យដើម $1,000000 រួចរាល់។";
     } else {
-        resultElement.textContent = "Demo balance reset to $1,000.";
+        resultElement.textContent = "Demo balance reset to $1,000000.";
     }
     resultElement.style.color = "#333333";
 }
