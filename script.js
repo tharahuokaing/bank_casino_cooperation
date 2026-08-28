@@ -68,9 +68,9 @@ function resetSimulation() {
     const resultElement = document.getElementById('sim-result');
     
     if (currentLang === 'km') {
-        resultElement.textContent = "បានបន្តសមតុល្យដើម $1,000000 រួចរាល់។";
+        resultElement.textContent = "បានបន្តសមតុល្យដើម $1,000,000 រួចរាល់។";
     } else {
-        resultElement.textContent = "Demo balance reset to $1,000000.";
+        resultElement.textContent = "Demo balance reset to $1,000,000.";
     }
     resultElement.style.color = "#333333";
 }
